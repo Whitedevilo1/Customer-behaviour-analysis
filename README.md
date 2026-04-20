@@ -87,25 +87,31 @@ The interactive dashboard provides a complete business view.
  - **Segment filter**
 - **Country filter**
 
-✅ Key Insights
-Champions generate the highest revenue
-Loyal customers ensure stable recurring income
-At Risk customers indicate potential churn
-High recency (inactive users) correlates with low engagement
-Majority of revenue comes from a few key segments
+![Customer Behavior Analysis Dashboard](dashboard.png)
 
-💼 Business Implications
+---
+
+## ✅ Results & Insights
+- **Champions** generate the highest revenue.
+- Loyal customers ensure stable recurring income
+- At Risk customers indicate potential churn
+- High recency (inactive users) correlates with low engagement
+- Majority of revenue comes from a few key segments
+
+---
+
+## 💼 Business Implications
 Focus on retaining Champions & Loyal Customers
 Create re-engagement campaigns for At Risk customers
 Personalize marketing based on customer segments
 Improve long-term customer retention strategies
 
-🏁 Conclusion
+## 🏁 Conclusion 
 
 This project demonstrates how RFM analysis can effectively segment customers and drive business decisions.
 
 It showcases:
 
-Data preprocessing using Python
-Customer segmentation techniques
-Business intelligence using Power BI
+- Data preprocessing using Python
+- Customer segmentation techniques
+- Business intelligence using Power BI
