@@ -7,81 +7,85 @@ This end-to-end data analytics project uses Python for data processing and Power
 
 ---
 
-📁 Dataset
-Source: Public customer transaction dataset
-Contains transactional data such as:
-Customer ID
-Invoice Number
-Product Description
-Quantity
-Invoice Date
-Unit Price
-Country
+## 📁 Dataset
+- **Source:** [Kaggle - Online Retail II](https://www.kaggle.com/code/pinardogan/rfm-analysis-using-online-retail-ii-dataset/input)
+- **Note:** Due to the large file size, a compressed version is provided in this repository.
+- **Attributes:** 8 core columns, including:
+  - `Invoice`, `StockCode`, `Description`
+  - `Quantity`, `InvoiceDate`, `Price`
+  - `Customer ID`, `Country`
 
 This dataset enables detailed behavioral and segmentation analysis.
 
-🎯 Objective
+### 🎯 Objective
 
 The main goals of this project are:
 
-Analyze customer purchasing behavior
-Perform segmentation using RFM (Recency, Frequency, Monetary)
-Identify high-value and low-engagement customers
-Provide actionable insights using dashboards
-🛠️ Tools and Technologies
-Tool	Purpose
-Python (Pandas, NumPy)	Data cleaning and transformation
-Power BI	Dashboard and visualization
-Jupyter Notebook	Implementation
-CSV Dataset	Data source
-🔍 Project Workflow
-1. Data Processing (Python)
-Cleaned and structured raw transactional data
-Grouped data by Customer ID
-Calculated key metrics:
-Recency → Days since last purchase
-Frequency → Number of transactions
-Monetary → Total spending
+- **Analyze customer purchasing behavior**
+- **Perform segmentation using RFM (Recency, Frequency, Monetary)**
+- **Identify high-value and low-engagement customers**
+- **Provide actionable insights using dashboards**
+---
 
-2. RFM Scoring
+## 🛠️ Tools and Technologies  
+| Tool | Purpose |
+| :--- | :--- |
+| **Python (Pandas, NumPy)** | Data cleaning and transformation |
+| **Power BI** | Dashboard and visualization |
+| **Google Collab** | Python implementation (`customer_analysis.ipynb`) |
+| **CSV Dataset** | Data source |
 
-Each customer was assigned scores:
 
-R Score (Recency)
-F Score (Frequency)
-M Score (Monetary)
+## 🔍 Project Workflow
+### 1. **Data Processing (Python)**
+- Cleaned and structured raw transactional data
+- Grouped data by Customer ID
+### - **Calculated key metrics:**
+- Recency → Days since last purchase
+- Frequency → Number of transactions
+- Monetary → Total spending
 
-These scores were used to rank and segment customers.
+### 2. **RFM Scoring**
 
-3. Customer Segmentation
+- Each customer was assigned scores:
 
-Customers were categorized into:
+- R Score (Recency)
+- F Score (Frequency)
+- M Score (Monetary)
 
-🏆 Champions → High value, frequent buyers
-🔁 Loyal Customers → Consistent repeat buyers
-⚠️ At Risk → Previously active but now inactive
-👤 Others → Low engagement or new customers
-📊 Power BI Dashboard
+- These scores were used to rank and segment customers.
+
+### 3. **Customer Segmentation**
+
+- Customers were categorized into:
+
+- 🏆 Champions → High value, frequent buyers
+- 🔁 Loyal Customers → Consistent repeat buyers
+- ⚠️ At Risk → Previously active but now inactive
+- 👤 Others → Low engagement or new customers
+---
+
+## 📊 Power BI Dashboard
 
 The interactive dashboard provides a complete business view.
 
-Key Visuals:
-KPI Cards
-Total Customers: 4.34K
-Total Revenue: 8911.41K
-Avg Revenue per Customer: 2.05K
-Customer Distribution (Pie Chart)
-Shows segmentation distribution (as seen in page 3 image)
-Revenue Contribution (Bar Chart)
-Highlights which segment generates the most revenue (page 3)
-Customer Behavior Analysis (Scatter Plot)
-Relationship between:
-Recency
-Frequency
-Monetary (page 4)
-Filters (Slicers)
-Segment filter
-Country filter
+### Key Visuals:
+- ### KPI Cards:
+ - **Total Customers: 4.34K**
+ - **Total Revenue: 8911.41K**
+ - **Avg Revenue per Customer: 2.05K**
+- ### Customer Distribution (Pie Chart)
+ - **Shows segmentation distribution (as seen in page 3 image)**
+- ### Revenue Contribution (Bar Chart)
+- **Highlights which segment generates the most revenue (page 3)**
+- ### Customer Behavior Analysis (Scatter Plot)
+ - **Relationship between:**
+ - **Recency**
+ - **Frequency**
+- **Monetary (page 4)**
+- ### Filters (Slicers)
+ - **Segment filter**
+- **Country filter**
 
 ✅ Key Insights
 Champions generate the highest revenue
