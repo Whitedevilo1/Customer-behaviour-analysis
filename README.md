@@ -1,9 +1,11 @@
-🧠 Customer Segmentation using RFM Analysis
-📋 Overview
+# 🧠 Customer Segmentation using RFM Analysis
+## 📋 Overview
 
 The Customer Segmentation using RFM Analysis project focuses on analyzing customer purchasing behavior and dividing customers into meaningful segments based on their activity.
 
 This end-to-end data analytics project uses Python for data processing and Power BI for interactive visualization to help businesses understand customer value, improve retention, and optimize marketing strategies.
+
+---
 
 📁 Dataset
 Source: Public customer transaction dataset
